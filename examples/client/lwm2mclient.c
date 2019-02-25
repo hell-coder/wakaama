@@ -1189,7 +1189,7 @@ int main(int argc, char *argv[])
 
         FD_ZERO(&readfds);
         FD_SET(data.sock, &readfds);
-        FD_SET(STDIN_FILENO, &readfds);
+    //    FD_SET(STDIN_FILENO, &readfds);
 
         /*
          * This function does two things:
